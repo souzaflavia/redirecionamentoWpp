@@ -12,7 +12,7 @@
       const utm_content = urlParams.get("utm_content") || "";
       const utm_term = urlParams.get("utm_term") || "";
 
-      const scriptUrl = "https://script.google.com/macros/s/SEU-LINK-AQUI/exec" +
+      const scriptUrl = "https://script.google.com/macros/s/AKfycbzaq3ZF771vuXcTOLnGvDGFhJG0w2YFtPkmLE8NyLj8RfkFaqcYxH8OFj0CGuQPa4Yn/exec" +
         `?utm_source=${utm_source}&utm_medium=${utm_medium}&utm_campaign=${utm_campaign}&utm_content=${utm_content}&utm_term=${utm_term}`;
 
       try {
